@@ -40,12 +40,13 @@ footer{
     color: white;
 }
 .navbar-expand-lg .navbar-nav .nav-link{
-    color: white;
+    color: black;
     border-bottom: 3px solid transparent;
     margin: 10px;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover{
-    border-color: white;
+    border-color: #5B6F71;
+    color: olivedrab;
 }
 .titulos{
     background-color: aquamarine;
