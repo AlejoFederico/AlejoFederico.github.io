@@ -30,8 +30,7 @@ footer{
     justify-content: center;
 }
 .info{
-    background-color:#D2EDEF;
-    padding: 40px;
+    padding: 120px;
 }
 .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -46,4 +45,13 @@ footer{
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover{
     border-color: white;
+}
+.titulos{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+header{
+    background-color:#D2EDEF;
 }
