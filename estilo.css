@@ -43,7 +43,7 @@ html{
 }
 
 .imagen-size{
-    height: 600px;
+    height: 700px;
     padding-top: 100px;
     padding-bottom: 100px;
     background-size: cover;
@@ -60,6 +60,8 @@ footer{
     text-align: center;
 }
 .info-box{
+    background-attachment:local;
+    height: 900px;
     background-size: cover;
     background-image: url(imagenes/blank-screen-desktop-computer-in-minimal-office-room-with-decorations-and-copy-space-free-photo.jpg);
     background-position-y:center;
@@ -68,11 +70,12 @@ footer{
     padding:0px 10px 0px 5px;
 }
 .imagen{
-    padding: 50px;
-    justify-content: center;
+    padding-top: 30px;
+    padding-left: 110px;
 }
 .info{
-    padding: 120px;
+    padding-top: 50px;
+    padding-left: 300px;
 }
 .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -90,9 +93,26 @@ footer{
     color: olivedrab;
 }
 .titulos{
-    background-color: lightslategrey;
+    background-image: url(imagenes/pngtree-image-of-a-room-with-shelves-and-a-desk-picture-image_2690860.jpg);
+    background-size: cover;
     text-align: center;
     padding: 20px;
-    color: white;
+    color: black;
 }
-
+.tarjeta{
+    width: 30% !important;
+    height: 150px;
+    background-image: url(imagenes/26876656-garabatos-aplicación-informática-contra-el-fondo-blanco-con-la-ilustración.jpg);
+    margin: 20px;
+}
+.tarjet-box{
+    display: flex;
+}
+.flotante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrado-tarjetas{
+    position: absolute;
+}
