@@ -15,7 +15,7 @@ html{
     padding: 20px;
     font-family: "Josefin Sans", sans-serif;
     margin: 0px;
-    background-image: url(imagenes/istockphoto-1440656058-612x612.jpg);
+    background-image: url(imagenes/pngtree-image-of-a-room-with-shelves-and-a-desk-picture-image_2690860.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -61,9 +61,8 @@ footer{
 }
 .info-box{
     background-size: cover;
-    box-shadow: 1px 1px 100px inset lightblue;
-    background-image: url(imagenes/computacion-cuantica-n.jpg);
-    background-size:auto;
+    background-image: url(imagenes/blank-screen-desktop-computer-in-minimal-office-room-with-decorations-and-copy-space-free-photo.jpg);
+    background-position-y:center;
 }
 .fas{
     padding:0px 10px 0px 5px;
