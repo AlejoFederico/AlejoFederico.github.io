@@ -1,0 +1,98 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    margin: 0px;
+    margin-bottom: 40px;
+}
+html{
+    min-height: 100%;
+    position: relative;
+}
+.tittle{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0px;
+    background-image: url(imagenes/pngtree-image-of-a-room-with-shelves-and-a-desk-picture-image_2690860.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagen-carousel-1{
+    background-image:url(imagenes/propuesta-curricular-novedad.png);
+    background-position-y: bottom;
+}
+.imagen-carousel-2{
+    background-image:url(imagenes/Frame-57.png);
+    background-position-y: center;
+}
+.imagen-carousel-3{
+    background-image:url(imagenes/1_Hy-RTBZiiqFH9sLHZKDRlQ.png);
+    background-position-y: center;
+}
+.Carousel-img-titulo{
+    padding-left: 0px !important;
+    padding-bottom: 20px;
+    color: white;
+}
+.Carousel-img-Contenido{
+    color: white;
+    padding-left: 0px !important;
+    padding-bottom: 40px;
+}
+
+.imagen-size{
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+
+}
+
+footer{
+    padding: 7px;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+.info-box{
+    background-size: cover;
+    background-image: url(imagenes/blank-screen-desktop-computer-in-minimal-office-room-with-decorations-and-copy-space-free-photo.jpg);
+    background-position-y:center;
+}
+.fas{
+    padding:0px 10px 0px 5px;
+}
+.imagen{
+    padding: 50px;
+    justify-content: center;
+}
+.info{
+    padding: 120px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: black;
+    border-bottom: 3px solid transparent;
+    margin: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-color: olivedrab;
+    color: olivedrab;
+}
+.titulos{
+    background-color: lightslategrey;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
