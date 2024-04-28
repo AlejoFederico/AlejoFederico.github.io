@@ -19,6 +19,37 @@ html{
     background-size: cover;
     background-attachment: fixed;
 }
+.imagen-carousel-1{
+    background-image:url(imagenes/propuesta-curricular-novedad.png);
+    background-position-y: bottom;
+}
+.imagen-carousel-2{
+    background-image:url(imagenes/que-es-la-computacion-administrativa.jpg);
+    background-position-y: center;
+}
+.imagen-carousel-3{
+    background-image:url(imagenes/recurso_-ventajas-y-desventajas-de-la-nube.jpg);
+    background-position-y: top;
+}
+.Carousel-img-titulo{
+    padding-left: 0px !important;
+    padding-bottom: 20px;
+    color: white;
+}
+.Carousel-img-Contenido{
+    color: white;
+    padding-left: 0px !important;
+    padding-bottom: 40px;
+}
+
+.imagen-size{
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+
+}
+
 footer{
     padding: 7px;
     background-color: black;
