@@ -102,8 +102,21 @@ footer{
 .tarjeta{
     width: 30% !important;
     height: 150px;
-    background-image: url(imagenes/26876656-garabatos-aplicación-informática-contra-el-fondo-blanco-con-la-ilustración.jpg);
+    background-color: white;
+    box-shadow: 1px 1px 20px;
     margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tarjeta:hover{
+    background-color: olive;
+    transition: all 0.5s ease-out;
+}
+.carousel-item button:hover{
+    color: white;
+    border: olive;
+    transition: all 0.5s ease-out;
+    background-color: olive !important;
 }
 .tarjet-box{
     display: flex;
