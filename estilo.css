@@ -111,7 +111,6 @@ footer{
     color: black;
 }
 .tarjeta{
-    font-family: "Montserrat", sans-serif !important;
     width: 30% !important;
     height: 150px;
     background-color: white;
@@ -127,7 +126,11 @@ footer{
     color: white;
     
 }
+.btn{
+    border: none !important;
+}
 .tarjeta h1{
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -156,10 +159,10 @@ footer{
 .centrado-tarjetas{
     position: absolute;
 }
-.montserrat{
+.montserrat-thin{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+    font-optical-sizing:auto;
     font-weight:100;
-    font-style: normal;
+    font-style:normal;
   }
   
