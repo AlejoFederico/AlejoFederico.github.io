@@ -186,6 +186,9 @@ footer{
     background-color: #E3E3E3;
     border-radius: 20px;
   }
+  .lista-proyectos ul li .proyect-active{
+    background-color: aqua;
+}
   .lista-proyectos ul li{
     padding: 20px;
     border-bottom: 1px solid white;
@@ -200,7 +203,9 @@ footer{
   a{
     text-decoration: none !important;
   }
-  .lista-proyectos ul li:hover{
+  .lista-proyectos ul a li:hover{
     color: olive
   }
-  
+ul li img{
+    margin-right: 10px;
+}
