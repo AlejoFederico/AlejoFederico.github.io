@@ -166,8 +166,9 @@ footer{
     font-style:normal;
   }
   .caja-proyectos{
+    padding-top: 16px;
     width: 100%;
-    background-color: bisque;
+    background-color: #E3E3E3;
     border-radius: 20px;
   }
   .lista-proyectos ul li{
@@ -175,5 +176,16 @@ footer{
     border-bottom: 1px solid black;
     list-style: none;
     font-size: 20px;
+    color: black;
+  }
+  .lista-proyectos ul li p{
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .lista-proyectos ul li:hover{
+    color: olive
   }
   
