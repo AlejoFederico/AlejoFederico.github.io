@@ -165,4 +165,15 @@ footer{
     font-weight:100;
     font-style:normal;
   }
+  .caja-proyectos{
+    width: 100%;
+    background-color: bisque;
+    border-radius: 20px;
+  }
+  .lista-proyectos ul li{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    list-style: none;
+    font-size: 20px;
+  }
   
