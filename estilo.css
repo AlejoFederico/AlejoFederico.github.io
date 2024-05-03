@@ -1,6 +1,9 @@
 *{
     font-family: "Open Sans", sans-serif;
 }
+.kanit{
+    font-family: 'Kanit' , sans-serif;
+}
 body{
     margin: 0px;
     margin-bottom: 40px;
@@ -126,7 +129,8 @@ footer{
     color: black;
 }
 .tarjeta{
-    width: 30% !important;
+    width: 90% !important;
+    border: solid 0px;
     height: 150px;
     background-color: white;
     box-shadow: 1px 1px 20px;
@@ -149,7 +153,6 @@ footer{
     font-size: 30px;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
 }
 .tarjeta i{
     text-align: center;
