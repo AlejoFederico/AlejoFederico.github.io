@@ -1,25 +1,26 @@
-var texto = ['CARRER HISTORY','PROFILE','PROYECTS','CONTACT','Web desing','View proyects', 'Estudies', 'Work experience', 'Time availability', 'PERSONAL <br> DATA', 'Name:', 'Age:', 'Place of birth:', 'Date of birth:', 'View complete cv']
-        const original = document.getElementById('nombre').textContent
-        const originalPerfil = document.getElementById('perfil').textContent
-        const originalProyecto = document.getElementById('proyecto').textContent
-        const originalContacto = document.getElementById('contacto').textContent
-        const originalTextoCarusel = document.getElementById('textoCarusel').textContent
-        const originalTextoCarusel1 = document.getElementById('textoCarusel1').textContent
-        const originalTextoCarusel2 = document.getElementById('textoCarusel2').textContent
-        const nombreDatos = document.getElementById('Nombre').textContent
-        const edadDatos = document.getElementById('edad').textContent
-        const lugraNacimientoDatos = document.getElementById('lugarNacimiento').textContent
-        const fechaNaciemientoDatos = document.getElementById('fechaNacimiento').textContent
-        const cv = document.getElementById('cv').textContent
-        const estudio = document.getElementById('estudio').textContent
-        const experiencia = document.getElementById('experiencia').textContent
-        const horario = document.getElementById('horario').textContent
-        const datos = document.getElementById('datos').textContent
-        const proyect = document.getElementById('proyect').textContent
-        const proyect1 = document.getElementById('proyect1').textContent
-        const proyect2 = document.getElementById('proyect2').textContent
-        var bool = true
-        function cambioTexto() { console.log(original)
+var texto = ['CARRER HISTORY','PROFILE','PROYECTS','CONTACT','Web desing','View proyects', 'Estudies', 'Work experience', 'Time availability', 'PERSONAL <br> DATA', 'Name:', 'Age:', 'Place of birth:', 'Date of birth:', 'View complete cv'],
+    original = document.getElementById('nombre').textContent,
+    originalPerfil = document.getElementById('perfil').textContent,
+    originalProyecto = document.getElementById('proyecto').textContent,
+    originalContacto = document.getElementById('contacto').textContent,
+    originalTextoCarusel = document.getElementById('textoCarusel').textContent,
+    originalTextoCarusel1 = document.getElementById('textoCarusel1').textContent,
+    originalTextoCarusel2 = document.getElementById('textoCarusel2').textContent,
+    nombreDatos = document.getElementById('Nombre').textContent,
+    edadDatos = document.getElementById('edad').textContent,
+    lugraNacimientoDatos = document.getElementById('lugarNacimiento').textContent,
+    fechaNaciemientoDatos = document.getElementById('fechaNacimiento').textContent,
+    cv = document.getElementById('cv').textContent,
+    estudio = document.getElementById('estudio').textContent,
+    experiencia = document.getElementById('experiencia').textContent,
+    horario = document.getElementById('horario').textContent,
+    datos = document.getElementById('datos').textContent,
+    proyect = document.getElementById('proyect').textContent,
+    proyect1 = document.getElementById('proyect1').textContent,
+    proyect2 = document.getElementById('proyect2').textContent,
+    bool = true
+    
+    function cambioTexto() {
           if (bool === true) {
             document.getElementById('nombre').innerHTML = texto[0];
             document.getElementById('perfil').innerHTML = '<i class="fas fa-home"></i>' + texto[1];
