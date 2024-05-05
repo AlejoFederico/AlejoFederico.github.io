@@ -12,15 +12,20 @@ html{
     min-height: 100%;
     position: relative;
 }
+.buttonTranslate{
+    display: flex;
+    justify-content: center;
+
+}
+.header{
+    margin: 0px;
+    padding-bottom: 20px;
+}
 .tittle{
     text-align: center;
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
     font-family: "Josefin Sans", sans-serif;
-    margin: 0px;
-    background-image: url(imagenes/pngtree-image-of-a-room-with-shelves-and-a-desk-picture-image_2690860.jpg);
-    background-size: cover;
-    background-attachment: fixed;
 }
 .imagen-carousel-1{
     background-image:url(imagenes/propuesta-curricular-novedad.png);

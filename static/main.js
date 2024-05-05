@@ -41,7 +41,7 @@ var texto = ['CARRER HISTORY','PROFILE','PROYECTS','CONTACT','Web desing','View 
             document.getElementById('proyect1').innerHTML = texto[5]
             document.getElementById('proyect2').innerHTML = texto[5]
             document.getElementById('idioma').innerHTML= 'Idioma: <b>Ingles</b>';
-            document.getElementById('idioma').className = 'd-block';
+            document.getElementById('idioma').className = 'd-block text-center';
             document.getElementById('cambioIdioma').className = 'btn btn-success';
             bool = false
           }
@@ -66,7 +66,7 @@ var texto = ['CARRER HISTORY','PROFILE','PROYECTS','CONTACT','Web desing','View 
             document.getElementById('proyect1').innerHTML = proyect1
             document.getElementById('proyect2').innerHTML = proyect2
             document.getElementById('idioma').innerHTML = 'Idioma: <b>Español</b>';
-            document.getElementById('idioma').className = 'd-block';
+            document.getElementById('idioma').className = 'd-block text-center';
             document.getElementById('cambioIdioma').className = 'btn btn-danger';
             bool = true           
           }
