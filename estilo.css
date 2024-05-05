@@ -139,10 +139,9 @@ footer{
     cursor: pointer;
 }
 .tarjeta:hover{
-    background-color: olive;
-    transition: all 0.5s ease-out;
-    box-shadow: none;
-    color: white;
+    transition: all 0.3s ease-out;
+    box-shadow: 1px 1px 10px black;
+    color: #E89C4F;
     
 }
 .btn{
@@ -163,7 +162,7 @@ footer{
 .carousel-item button:hover{
     color: white;
     border: olive;
-    transition: all 0.5s ease-out;
+    transition: all 0.2s ease-out;
     background-color: olive !important;
 }
 .tarjet-box{

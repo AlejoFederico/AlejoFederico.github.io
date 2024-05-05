@@ -20,8 +20,11 @@
 </head>
 <body>
     <header>
+      <div>
+        <span id="idioma" class="d-none">Idioma actual: Español</span>
+        <button class="btn btn-danger" id="cambioIdioma" onclick="cambioTexto()"><i class="bi bi-translate"></i> Cambiar Idioma </button>
+      </div>
       <h1 class="tittle" id="nombre">PORTAFOLIO</h1>
-      <input type="button" onclick="cambioTexto()" name="" id="" value="Cambiar">
         <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary ">
             <div class="container-fluid">
               <img src="" alt="">
@@ -31,13 +34,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html"><i class="fas fa-home"></i>PERFIL</a>
+                    <a class="nav-link" id="perfil" aria-current="page" href="index.html"><i class="fas fa-home"></i>PERFIL</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pags/proyecyos.html"><i class="fas fa-list"></i>PROYECTOS</a>
+                    <a class="nav-link" id="proyecto" href="pags/proyecyos.html"><i class="fas fa-list"></i>PROYECTOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-user"></i>CONTACTO</a>
+                    <a class="nav-link" id="contacto" href="#"><i class="fas fa-user"></i>CONTACTO</a>
                   </li>
                 </ul>
               </div>
@@ -53,9 +56,9 @@
              <div class="position-absolute top-50 start-50 translate-middle">
               <div class="container">
                 <div class="row">
-                  <h1 class="Carousel-img-titulo">Desarollo Web</h1>
+                  <h1 id="textoCarusel" class="Carousel-img-titulo">Desarollo Web</h1>
                   <p class="Carousel-img-Contenido w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi possimus minus excepturi voluptatem modi quidem maiores ab inventore atque earum, corporis, est officiis explicabo. Quasi eaque doloremque odit expedita quod.</p>
-                  <button class="btn btn-warning w-25 p-3" > Acordaste del PULL </button>
+                  <button class="btn btn-warning w-25 p-3" id="proyect"> Ver proyectos </button>
                 </div>
               </div>
              </div>
@@ -66,9 +69,9 @@
             <div class="position-absolute top-50 start-50 translate-middle">
              <div class="container">
                <div class="row">
-                 <h1 class="Carousel-img-titulo">Desarollo Web</h1>
+                 <h1 id="textoCarusel1" class="Carousel-img-titulo">Desarollo Web</h1>
                  <p class="Carousel-img-Contenido w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi possimus minus excepturi voluptatem modi quidem maiores ab inventore atque earum, corporis, est officiis explicabo. Quasi eaque doloremque odit expedita quod.</p>
-                 <button class="btn btn-light w-25 p-3" > Ver proyectos</button>
+                 <button class="btn btn-light w-25 p-3" id="proyect1"> Ver proyectos</button>
                </div>
              </div>
             </div>
@@ -79,9 +82,9 @@
             <div class="position-absolute top-50 start-50 translate-middle">
              <div class="container">
                <div class="row">
-                 <h1 class="Carousel-img-titulo">Desarollo Web</h1>
+                 <h1 id="textoCarusel2" class="Carousel-img-titulo">Desarollo Web</h1>
                  <p class="Carousel-img-Contenido w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi possimus minus excepturi voluptatem modi quidem maiores ab inventore atque earum, corporis, est officiis explicabo. Quasi eaque doloremque odit expedita quod.</p>
-                 <button class="btn btn-light w-25 p-3" > Ver proyectos</button>
+                 <button class="btn btn-light w-25 p-3" id="proyect2"> Ver proyectos</button>
                </div>
              </div>
             </div>
@@ -106,7 +109,7 @@
             <div class="tarjet-box">
               <div class="col-sm-4 montserrat">
                     <button type="button" class=" tarjeta" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      <h1>Estudios</h1>
+                      <h1 id="estudio">Estudios</h1>
                       <i class="fas fa-book"></i>
                     </button>
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -137,7 +140,7 @@
               </div>
               <div class="col-sm-4">
                 <button type="button" class=" tarjeta" data-bs-toggle="modal" data-bs-target="#experiencia">
-                  <h1>Experiencia laboral</h1>
+                  <h1 id="experiencia">Experiencia laboral</h1>
                 <i class="fas fa-user"></i>
                 </button>
                 <div class="modal fade" id="experiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -163,7 +166,7 @@
               </div>
               <div class="col-sm-4">
                 <button type="button" class=" tarjeta" data-bs-toggle="modal" data-bs-target="#disponibilidad">
-                  <h1>Disponibilidad Horaria</h1>
+                  <h1 id="horario">Disponibilidad Horaria</h1>
                 <i class="fas fa-clock"></i>
                 </button>
                 <div class="modal fade" id="disponibilidad" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -201,12 +204,12 @@
               <div class="info-box-2">
                   <div class="col-6">
                 <div class="info">
-                  <h1 class="text-center pb-3 pt-4 display-6">DATOS PERSONALES</h1>
-                  <p class="kanit">Nombre: Alejo Federico</p>
-                  <p class="kanit">Edad: 24 Años</p>
-                  <p class="kanit">Lugar de Nacimiento: Chacabuco, Buenos Aires</p>
-                  <p class="kanit">fecha de Nacimiento: 16/08/1999</p>
-                  <a href="static/CV.pdf" target="_blank"><button class="btn btn-success mt-3">Ver curriculum completo</button></a>
+                  <h1 class="text-center pb-3 pt-4 display-6" id="datos">DATOS PERSONALES</h1>
+                  <p class="kanit"><b id="Nombre">Nombre:</b> Alejo Federico</p>
+                  <p class="kanit"><b id="edad">Edad:</b> 24 Años</p>
+                  <p class="kanit"><b id="lugarNacimiento">Lugar de Nacimiento:</b> Chacabuco, Buenos Aires</p>
+                  <p class="kanit"><b id="fechaNacimiento">Fecha de Nacimiento:</b> 16/08/1999</p>
+                  <a href="static/CV.pdf" target="_blank"><button class="btn btn-success mt-3" id="cv">Ver curriculum completo</button></a>
                 </div>
               </div>
               <div class=" col-6">
@@ -223,21 +226,6 @@
 
     <footer>Alejo Federico 2024</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-        var texto = "Hola"
-        const original = document.getElementById('nombre').value
-        var bool = true
-        function cambioTexto() { console.log(bool)
-          if (bool === true) {
-            document.getElementById('nombre').innerHTML = texto;
-            bool = false
-          }
-          else if(bool === false){
-            document.getElementById('nombre').innerHTML = original;
-            bool = true
-          }
-      }
-
-    </script>
+    <script src="static/main.js"></script>
 </body>
 </html>
