@@ -29,13 +29,11 @@ html{
     opacity: 0.5 ;
     transition: all 0.3s ease-out;
 }
-.spanImg{
-    position: absolute;
-    padding: 15px 13px 0px 11px;
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    z-index: 100;
+li span{
+    font-size: 15px;
+}
+li img{
+    padding-top: 10px;
 }
 a .spanImg:hover{
     display: block;
