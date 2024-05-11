@@ -227,3 +227,12 @@ footer{
 ul li img{
     margin-right: 10px;
 }
+#whatsapp{
+    color: green;
+}
+#instagram{
+    color: palevioletred;
+}
+#email{
+    color: lightseagreen;
+}
